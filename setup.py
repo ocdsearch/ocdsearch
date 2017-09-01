@@ -18,7 +18,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'ocds_index=ocds_index:main',
+            'ocds_index=ocdsearch.ocds_index:main',
+            'ocds_search=ocdsearch.ocds_search:main',
         ],
     },
 )
